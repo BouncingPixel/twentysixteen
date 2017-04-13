@@ -27,11 +27,17 @@ time.entry-date.published {
 	min-width: 210px;
 	width: 50%;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .coaches-bio img {
 	margin-left: -15px;
 	margin-right: 15px;
+}
+
+div.center.coaches-bio hr {
+	clear: both;
+
 }
 
 .volunteer-opps .volunteer_opp {
@@ -40,6 +46,13 @@ time.entry-date.published {
 
 .volunteer-opps .entry-content {
 	width: 95% !important;
+}
+
+input[type="submit"] {
+	background: rgb(219, 90, 45);
+}
+input[type="submit"]:hover {
+	background: rgb(26, 26, 26);
 }
 
 .listing-item a.title {
