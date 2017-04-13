@@ -29,9 +29,10 @@ Modified plugins
 
 Files changed
 -------------------------
+```
 wp-content/
 
-  plugins/
+plugins/
     wired-impact-volunteer-management/
       includes/
         class-opportunity.php
@@ -52,3 +53,5 @@ wp-content/
       functions.php
       header.php
       index.php
+
+```
