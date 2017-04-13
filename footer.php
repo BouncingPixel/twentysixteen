@@ -12,6 +12,7 @@
 
 		</div><!-- .site-content -->
 
+	</div><!-- .site-inner -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
 				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
@@ -38,7 +39,15 @@
 				</nav><!-- .social-navigation -->
 			<?php endif; ?>
 
+			<div class="contact-info">
+				<div class="contact-info-container">
+					<span class="contact-info-email"><?php printf('Email: info@houstonheat.org'); ?></span>
+					<span class="contact-info-address"><?php printf('P.O. Box 27029 Houston, TX 77227-7029'); ?></span>
+				</div>
+			</div>
+
 			<div class="site-info">
+				<div class="site-info-container">
 				<?php
 					/**
 					 * Fires before the twentysixteen footer text for footer customization.
@@ -47,11 +56,15 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?></a>
+				<!--<span class="site-title">
+
+
+
+				</span>-->
+				<?php printf('Copyright © 2017 - Houston Heat Dragon Boat Club'); ?>
+				</div>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
-	</div><!-- .site-inner -->
 </div><!-- .site -->
 
 <?php wp_footer(); ?>

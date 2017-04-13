@@ -14,9 +14,14 @@
  * @since Twenty Sixteen 1.0
  */
 
-get_header(); ?>
 
-	<div id="primary" class="content-area">
+
+get_header(); ?>
+	<section id="home-section" class="clearfix">
+		<?php get_sidebar(); ?>
+	</section>
+
+	<div id="primary" class="content-area home-content">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -58,5 +63,4 @@ get_header(); ?>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

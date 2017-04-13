@@ -24,7 +24,7 @@ get_header(); ?>
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) {
-				comments_template();
+				// comments_template();
 			}
 
 			// End of the loop.
@@ -37,5 +37,5 @@ get_header(); ?>
 
 </div><!-- .content-area -->
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
