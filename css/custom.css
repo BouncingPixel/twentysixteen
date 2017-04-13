@@ -93,7 +93,7 @@ input[type="submit"]:hover {
 	float: left;
 }
 
-#home-section #vsel_widget-3 {
+#home-section .vsel_widget {
 	border: none;
 	background-color: rgba(61, 61, 61, 0.15);
 	padding: 12px 0;
@@ -101,7 +101,7 @@ input[type="submit"]:hover {
 	width: 90%;
 }
 
-#home-section #vsel_widget-3 div.vsel-content {
+#home-section .vsel_widget div.vsel-content {
 	display: inline-block;
 	clear: none !important;
 	text-align: center;
@@ -110,40 +110,40 @@ input[type="submit"]:hover {
 	width: calc(100% / 5) !important;
 }
 
-#home-section #vsel_widget-3 .vsel-widget-link {
+#home-section .vsel_widget .vsel-widget-link {
 	display: none !important;
 }
 
 
 /* Styling for both grey boxes */
 
-#home-section #wi_volunteer_management_widget-5, #home-section #wi_volunteer_management_widget-6 {
+#home-section .widget_wi_volunteer_management_widget {
 	background-color: rgba(61, 61, 61, 0.15);
 	height: 300px;
 	padding-top: 12px;
 	border: none;
 	margin-bottom: 10px;
 }
-
-#home-section #wi_volunteer_management_widget-5 {
+#home-section section.widget_wi_volunteer_management_widget:nth-child(odd) {
 	margin-right: 5px;
 }
 
-#home-section #wi_volunteer_management_widget-6 {
+#home-section section.widget_wi_volunteer_management_widget:nth-child(even) {
 	margin-left: 5px;
 }
 
 
 /* ul selector*/
 
-#home-section #wi_volunteer_management_widget-5 > ul, #home-section #wi_volunteer_management_widget-5 > ul {
+#home-section .widget_wi_volunteer_management_widget > ul {
 	margin: 0;
 }
 
 
 /* Headings */
 
-#home-section #wi_volunteer_management_widget-5 > a > h2, #home-section #wi_volunteer_management_widget-6 > a > h2, #home-section #vsel_widget-3 h2 {
+#home-section .widget_wi_volunteer_management_widget > a > h2,
+#home-section .vsel_widget h2 {
 	/*color: #3d3d3d;*/
 	color: rgb(219, 90, 45);
 	margin-bottom: 0;
@@ -155,7 +155,7 @@ input[type="submit"]:hover {
 
 /* Content containers */
 
-#home-section #wi_volunteer_management_widget-5 > ul, #home-section #wi_volunteer_management_widget-6 > ul, #home-section #vsel {
+#home-section .widget_wi_volunteer_management_widget > ul {
 	height: 90%;
 	/*When the button is enabled*/
 	/*height: calc(300px - 81px);*/
@@ -166,7 +166,7 @@ input[type="submit"]:hover {
 	/*border-bottom: solid white 3px;*/
 }
 
-#home-section #wi_volunteer_management_widget-5 > ul > li, #home-section #wi_volunteer_management_widget-6 > ul > li {
+#home-section .widget_wi_volunteer_management_widget > ul > li {
 	list-style-type: none;
 	margin-bottom: 10px;
 	display: block;
@@ -175,7 +175,7 @@ input[type="submit"]:hover {
 
 /*Cleafix*/
 
-#home-section #wi_volunteer_management_widget-5 > ul > li:after, #home-section #wi_volunteer_management_widget-6 > ul > li:after {
+#home-section .widget_wi_volunteer_management_widget > ul > li:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -199,7 +199,7 @@ input[type="submit"]:hover {
 	display: none;
 }
 
-#home-section #wi_volunteer_management_widget-5 li, #home-section #wi_volunteer_management_widget-6 li, #home-section #vsel_widget-3 {
+#home-section .widget_wi_volunteer_management_widget li, #home-section .vsel_widget {
 	font-weight: 500;
 	font-size: 15px;
 }
@@ -207,7 +207,7 @@ input[type="submit"]:hover {
 
 /* Event titles */
 
-#home-section #wi_volunteer_management_widget-5 > ul > li > a, #home-section #wi_volunteer_management_widget-6 > ul > li > a {
+#home-section .widget_wi_volunteer_management_widget > ul > li > a {
 	font-size: inherit;
 	font-weight: 600;
 	/*margin-bottom: 5px;*/
@@ -224,7 +224,7 @@ input[type="submit"]:hover {
 	font-size: 15px;
 }
 
-#home-section #wi_volunteer_management_widget-5 > ul > li > a:hover, #home-section #wi_volunteer_management_widget-6 > ul > li > a:hover {
+#home-section .widget_wi_volunteer_management_widget > ul > li > a:hover {
 	color: rgb(219, 90, 45);
 }
 
@@ -281,7 +281,8 @@ input[type="submit"]:hover {
 
 /* View All button styling */
 
-#home-section #wi_volunteer_management_widget-5 > p > a, #home-section #wi_volunteer_management_widget-6 > p > a, #home-section #vsel_widget-3 > div.vsel-widget-link > a {
+#home-section .widget_wi_volunteer_management_widget > p > a,
+#home-section .vsel_widget > div.vsel-widget-link > a {
 	text-align: center;
 	display: block;
 	color: rgb(61, 61, 61);
@@ -296,11 +297,12 @@ input[type="submit"]:hover {
 
 /*Hide View All buttons*/
 
-#home-section #wi_volunteer_management_widget-5 > p, #home-section #wi_volunteer_management_widget-6 > p {
+#home-section .widget_wi_volunteer_management_widget > p {
 	display: none !important;
 }
 
-#home-section #wi_volunteer_management_widget-5 > p > a:hover, #home-section #wi_volunteer_management_widget-6 > p > a:hover, #home-section #vsel_widget-3 > div.vsel-widget-link > a:hover {
+#home-section .widget_wi_volunteer_management_widget > p > a:hover,
+#home-section .vsel_widget > div.vsel-widget-link > a:hover {
 	color: rgb(219, 90, 45);
 	/* background-color: rgb(61, 61, 61); */
 	border-color: rgb(219, 90, 45);
@@ -560,10 +562,8 @@ article ul {
 }*/
 
 @media screen and (max-width: 425px) {
-	#wi_volunteer_management_widget-5 > ul > li > span,
-	#wi_volunteer_management_widget-6 > ul > li > span,
-	#wi_volunteer_management_widget-5 > ul > li > a,
-	#wi_volunteer_management_widget-6 > ul > li > a {
+	.widget_wi_volunteer_management_widget > ul > li > span,
+	.widget_wi_volunteer_management_widget > ul > li > a {
 		float: none !important;
 		display: block;
 		width: 100%;
@@ -587,7 +587,7 @@ article ul {
 
 
 @media screen and (max-width: 44.375em) {
-	#home-section #wi_volunteer_management_widget-5 > ul > li > a {
+	#home-section .widget_wi_volunteer_management_widget > ul > li > a {
 		max-width: initial;
 	}
 	img.align-left {
@@ -613,7 +613,7 @@ article ul {
 	.post-navigation {
 		margin: 0;
 	}
-	#home-section aside section, #home-section #vsel_widget-3 {
+	#home-section aside section, #home-section .vsel_widget {
 		width: 100%;
 		margin: 10px auto !important;
 	}
@@ -636,7 +636,7 @@ article ul {
 	.simple-social-icons ul li a {
 		padding: 6px !important;
 	}
-	#home-section #vsel_widget-3 div.vsel-content {
+	#home-section .vsel_widget div.vsel-content {
 		width: calc(100% / 1) !important;
 	}
 	.site-header {
