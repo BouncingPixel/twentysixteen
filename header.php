@@ -43,19 +43,19 @@
 										</svg>
 									</a>
 								</li>
-								<li class="ssi-instagram">
-									<a href="https://www.instagram.com/houstonheatdragons/" target="_blank" id="icon-color-instagram">
-										<svg role="img" class="social-instagram " aria-labelledby="social-instagram">
-											<title id="social-instagram">Instagram</title>
-											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use>
-										</svg>
-									</a>
-								</li>
 								<li class="ssi-youtube">
 									<a href="https://www.youtube.com/user/houstonheatDBC" target="_blank" id="icon-color-youtube">
 										<svg role="img" class="social-youtube" aria-labelledby="social-youtube">
 											<title id="social-youtube">YouTube</title>
 											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-youtube"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="ssi-instagram">
+									<a href="https://www.instagram.com/houstonheatdragons/" target="_blank" id="icon-color-instagram">
+										<svg role="img" class="social-instagram " aria-labelledby="social-instagram">
+											<title id="social-instagram">Instagram</title>
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use>
 										</svg>
 									</a>
 								</li>
