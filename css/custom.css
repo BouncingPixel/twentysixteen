@@ -84,7 +84,7 @@ time.entry-date.published {
 	border: none;
 	background-color: rgba(61, 61, 61, 0.15);
 	padding: 12px 0;
-	margin-bottom: 10px;
+	margin-bottom: 2em;
 	width: 90%;
 }
 
@@ -176,7 +176,7 @@ time.entry-date.published {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	padding: 0 8px;
-	color: orange;
+	color: rgb(219, 90, 45);
 }
 
 
@@ -423,7 +423,7 @@ ul.sub-menu a {
 }
 
 .site-info {
-	color: #db5a2d;
+	color: rgb(219, 90, 45);
 	background: rgb(226, 226, 226);
 	font-weight: 600;
 	margin: 0 auto;
@@ -436,7 +436,7 @@ ul.sub-menu a {
 	width: 100%;
 	color: white;
 	text-align: center;
-	background-color: #db5a2d;
+	background-color: rgb(219, 90, 45);
 	font-weight: 400;
 }
 
