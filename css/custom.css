@@ -259,11 +259,11 @@ input[type="submit"]:hover {
 }
 
 #icon-color-instagram {
-	background-color: rgba(202, 56, 56, 0.7)!important;
+	background-color: rgba(68, 68, 68, 0.7)!important;
 }
 
 #icon-color-youtube {
-	background-color: rgba(68, 68, 68, 0.7)!important;
+	background-color: rgba(202, 56, 56, 0.7)!important;
 }
 
 #icon-color-facebook:hover {
@@ -271,11 +271,11 @@ input[type="submit"]:hover {
 }
 
 #icon-color-instagram:hover {
-	background-color: rgba(202, 56, 56, 1)!important;
+	background-color: rgba(68, 68, 68, 1)!important;
 }
 
 #icon-color-youtube:hover {
-	background-color: rgba(68, 68, 68, 1)!important;
+	background-color: rgba(202, 56, 56, 1)!important;
 }
 
 
