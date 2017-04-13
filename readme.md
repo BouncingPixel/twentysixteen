@@ -7,22 +7,22 @@ Pre-requisites
 
 Non-modified plugins
 1.  Contact Form 7 (version ^4.7)
-  * For Contact Us page
+    * For Contact Us page
 2.  Display Posts Shortcode (version ^2.7.0)
-  * For customized static page to display current blog posts
+    * For customized static page to display current blog posts
 3. Envira Gallery Lite (version ^1.6.0)
-  * Used on Multimedia page
+    * Used on Multimedia page
 4. Simple Social Icons (version ^2.0.1)
-  * Used in the social media super header / had to be hardcoded into  due to design requirements
+    * Used in the social media super header / had to be hardcoded into  due to design requirements
 
 
 Modified plugins
 1. Wired Impact Volunteer Mangagement (version 1.3)
-  * Used for event signup management and populates a widget on the homepage
-  * https://github.com/BouncingPixel/wired-impact-volunteer-management
+    * Used for event signup management and populates a widget on the homepage
+    * https://github.com/BouncingPixel/wired-impact-volunteer-management
 2. Very Simple Event List (version ^6.1)
-  * Used to manage upcoming events. Widget is displayed on the top of the home page.
-  * https://github.com/BouncingPixel/very-simple-event-list
+    * Used to manage upcoming events. Widget is displayed on the top of the home page.
+    * https://github.com/BouncingPixel/very-simple-event-list
 
 
 
