@@ -510,6 +510,15 @@ nav.post-navigation, .post-navigation div + div {
 	height: 0;
 }
 
+.sidebar.widget-area:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 body:not(.search-results) article:not(.type-page) .entry-footer {
 	display: none;
 }
@@ -534,11 +543,39 @@ article ul {
 
 /*.volunteer-opp-info {
 	color: rgb(219, 90, 45);
+
 }*/
+
+@media screen and (max-width: 425px) {
+	#wi_volunteer_management_widget-5 > ul > li > span,
+	#wi_volunteer_management_widget-6 > ul > li > span,
+	#wi_volunteer_management_widget-5 > ul > li > a,
+	#wi_volunteer_management_widget-6 > ul > li > a {
+		float: none !important;
+		display: block;
+		width: 100%;
+		max-width: initial !important;
+		clear: both;
+		text-align: center;
+	}
+
+	#vsel > div {
+		margin-bottom: 5px !important;
+	}
+}
+
+
+@media screen and (min-width: 44.375em) {
+	.sidebar.widget-area {
+		padding: 0 7.6923% !important;
+	}
+
+}
+
 
 @media screen and (max-width: 44.375em) {
 	#home-section #wi_volunteer_management_widget-5 > ul > li > a {
-		max-width: 200px;
+		max-width: initial;
 	}
 	img.align-left {
 		float: none !important;
@@ -548,6 +585,8 @@ article ul {
 	.post-navigation {
 		margin: 0;
 	}
+
+
 }
 
 
@@ -602,6 +641,9 @@ article ul {
 	}
 	.site-footer .main-navigation {
 		display: none;
+	}
+	.site-content {
+		overflow-x: hidden;
 	}
 }
 
