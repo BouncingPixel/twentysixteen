@@ -1,5 +1,8 @@
 * { font-family: 'Open Sans', sans-serif !important; }
 
+
+a
+
 .coaches-thumbnail li {
 	display: inline-block !important;
 }
@@ -55,7 +58,7 @@
 	float: left;
 }
 
-#home-section #vsel_widget-2 {
+#home-section #vsel_widget-3 {
 	border: none;
 	background-color: rgba(61, 61, 61, 0.15);
 	padding: 12px 0;
@@ -63,7 +66,7 @@
 	width: 90%;
 }
 
-#home-section #vsel_widget-2 div.vsel-content {
+#home-section #vsel_widget-3 div.vsel-content {
     display: inline-block;
     clear: none !important;
     text-align: center;
@@ -71,36 +74,36 @@
     margin-bottom: 15px;
     width: calc(100% / 5) !important;
 }
-#home-section #vsel_widget-2 .vsel-widget-link {
+#home-section #vsel_widget-3 .vsel-widget-link {
 	display: none !important;
 }
 /* Styling for both grey boxes */
-#home-section #wi_volunteer_management_widget-3,
-#home-section #wi_volunteer_management_widget-4 {
+#home-section #wi_volunteer_management_widget-5,
+#home-section #wi_volunteer_management_widget-6 {
 	background-color: rgba(61, 61, 61, 0.15);
 	height: 300px;
 	padding-top: 12px;
 	border: none;
 	margin-bottom: 10px;
 }
-#home-section #wi_volunteer_management_widget-3 {
+#home-section #wi_volunteer_management_widget-5 {
 	margin-right: 5px;
 }
-#home-section #wi_volunteer_management_widget-4 {
+#home-section #wi_volunteer_management_widget-6 {
 	margin-left: 5px;
 }
 
 /* ul selector*/
 
-#home-section #wi_volunteer_management_widget-3 > ul,
-#home-section #wi_volunteer_management_widget-3 > ul {
+#home-section #wi_volunteer_management_widget-5 > ul,
+#home-section #wi_volunteer_management_widget-5 > ul {
 	margin: 0;
 }
 
 /* Headings */
-#home-section #wi_volunteer_management_widget-3 > a > h2,
-#home-section #wi_volunteer_management_widget-4 > a > h2,
-#home-section  #vsel_widget-2 h2 {
+#home-section #wi_volunteer_management_widget-5 > a > h2,
+#home-section #wi_volunteer_management_widget-6 > a > h2,
+#home-section  #vsel_widget-3 h2 {
 	/*color: #3d3d3d;*/
 	color: rgb(219, 90, 45);
 	margin-bottom: 0;
@@ -112,8 +115,8 @@
 
 /* Content containers */
 
-#home-section #wi_volunteer_management_widget-3 > ul,
-#home-section #wi_volunteer_management_widget-4 > ul,
+#home-section #wi_volunteer_management_widget-5 > ul,
+#home-section #wi_volunteer_management_widget-6 > ul,
 #home-section #vsel {
 	height: 90%;
 	/*When the button is enabled*/
@@ -125,15 +128,15 @@
 	/*border-bottom: solid white 3px;*/
 }
 
-#home-section  #wi_volunteer_management_widget-3 > ul > li,
-#home-section  #wi_volunteer_management_widget-4 > ul > li {
+#home-section  #wi_volunteer_management_widget-5 > ul > li,
+#home-section  #wi_volunteer_management_widget-6 > ul > li {
 	list-style-type: none;
 	margin-bottom: 10px;
 	display: block;
 }
 /*Cleafix*/
-#home-section  #wi_volunteer_management_widget-3 > ul > li:after,
-#home-section  #wi_volunteer_management_widget-4 > ul > li:after {
+#home-section  #wi_volunteer_management_widget-5 > ul > li:after,
+#home-section  #wi_volunteer_management_widget-6 > ul > li:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -152,15 +155,15 @@
 /* Hide second date, End date */
 #vsel > div > div.vsel-meta > p:nth-child(3) { display: none; }
 
-#home-section #wi_volunteer_management_widget-3 li,
-#home-section #wi_volunteer_management_widget-4 li,
-#home-section #vsel_widget-2 {
+#home-section #wi_volunteer_management_widget-5 li,
+#home-section #wi_volunteer_management_widget-6 li,
+#home-section #vsel_widget-3 {
 	font-weight: 500;
 	font-size: 15px;
 }
 /* Event titles */
-#home-section #wi_volunteer_management_widget-3 > ul > li > a,
-#home-section #wi_volunteer_management_widget-4 > ul > li > a {
+#home-section #wi_volunteer_management_widget-5 > ul > li > a,
+#home-section #wi_volunteer_management_widget-6 > ul > li > a {
 	font-size: inherit;
 	font-weight: 600;
 	/*margin-bottom: 5px;*/
@@ -176,8 +179,8 @@
 	font-size: 15px;
 }
 
-#home-section #wi_volunteer_management_widget-3 > ul > li > a:hover,
-#home-section #wi_volunteer_management_widget-4 > ul > li > a:hover {
+#home-section #wi_volunteer_management_widget-5 > ul > li > a:hover,
+#home-section #wi_volunteer_management_widget-6 > ul > li > a:hover {
 	color: rgb(219, 90, 45);
 }
 
@@ -211,9 +214,9 @@
 #icon-color-youtube:hover { background-color: rgba(68, 68, 68,1)!important; }
 
 /* View All button styling */
-#home-section #wi_volunteer_management_widget-3 > p > a,
-#home-section #wi_volunteer_management_widget-4 > p > a,
-#home-section #vsel_widget-2 > div.vsel-widget-link > a {
+#home-section #wi_volunteer_management_widget-5 > p > a,
+#home-section #wi_volunteer_management_widget-6 > p > a,
+#home-section #vsel_widget-3 > div.vsel-widget-link > a {
 	text-align: center;
 	display: block;
 	color: rgb(61, 61, 61);
@@ -226,14 +229,14 @@
 }
 
 /*Hide View All buttons*/
-#home-section #wi_volunteer_management_widget-3 > p,
-#home-section #wi_volunteer_management_widget-4 > p {
+#home-section #wi_volunteer_management_widget-5 > p,
+#home-section #wi_volunteer_management_widget-6 > p {
 	display: none !important;
 }
 
-#home-section #wi_volunteer_management_widget-3 > p > a:hover,
-#home-section #wi_volunteer_management_widget-4 > p > a:hover,
-#home-section #vsel_widget-2 > div.vsel-widget-link > a:hover {
+#home-section #wi_volunteer_management_widget-5 > p > a:hover,
+#home-section #wi_volunteer_management_widget-6 > p > a:hover,
+#home-section #vsel_widget-3 > div.vsel-widget-link > a:hover {
 	color: rgb(219, 90, 45);
 	/* background-color: rgb(61, 61, 61); */
 	border-color: rgb(219, 90, 45);
@@ -437,7 +440,7 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
 }
 
 @media screen and (max-width: 44.375em) {
-	#home-section #wi_volunteer_management_widget-3 > ul > li > a {
+	#home-section #wi_volunteer_management_widget-5 > ul > li > a {
 		max-width: 200px;
 	}
 	img.align-left {
@@ -455,7 +458,7 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
 
 	}
 	#home-section aside section,
-	#home-section #vsel_widget-2 {
+	#home-section #vsel_widget-3 {
 		width: 100%;
 		margin: 10px auto !important;
 	}
@@ -481,7 +484,7 @@ body:not(.search-results) article:not(.type-page) .entry-footer {
 		padding: 6px !important;
 	}
 
-	#home-section #vsel_widget-2 div.vsel-content {
+	#home-section #vsel_widget-3 div.vsel-content {
 		width: calc(100% / 1) !important;
 	}
 
