@@ -33,13 +33,17 @@ Files changed
 wp-content/
     plugins/
         wired-impact-volunteer-management/
-        includes/
-            class-opportunity.php
-        templates/
-            opp-single-form.php
-            opp-single-meta.php
-            opps-list-one-time.php
-            opps-list-widget.php
+           admin/
+               class-admin.php
+           frontend/
+               class-public.php
+           includes/
+               class-opportunity.php
+           templates/
+               opp-single-form.php
+               opp-single-meta.php
+               opps-list-one-time.php
+               opps-list-widget.php
     themes/
         twentysixteen/
         css/
