@@ -370,6 +370,13 @@ ul.toggled-on {
 button.dropdown-toggle {
 	color: white;
 }
+
+.menu-toggle,
+.menu-toggle:hover,
+.menu-toggle:focus {
+	background-color: rgb(222, 73, 7);
+	color: white;
+}
 /* root level nav styling */
 
 .primary-menu > li > a {
