@@ -680,6 +680,9 @@ article ul {
 	.site-content {
 		overflow-x: hidden;
 	}
+	#home-section .vsel_widget {
+		display: none;
+	}
 
 }
 
