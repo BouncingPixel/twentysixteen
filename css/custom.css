@@ -400,7 +400,7 @@ a {
 }
 
 .custom-logo {
-	/*width: 400px;*/
+	width: auto;
 	max-width: 400px;
 }
 
@@ -658,6 +658,7 @@ article ul {
 	.site-content {
 		overflow-x: hidden;
 	}
+
 }
 
 @media screen and (min-width: 61.5625em) {
@@ -684,4 +685,8 @@ article ul {
 	ul#menu-navbar {
 		display: inline-block;
 	}
+	.simple-social-icons ul {
+		margin-top: 27px !important;
+	}
+
 }

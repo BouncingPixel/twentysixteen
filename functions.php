@@ -73,6 +73,7 @@ function twentysixteen_setup() {
 		'height'      => 240,
 		'width'       => 240,
 		'flex-height' => true,
+		'flex-width' => true,
 	) );
 
 	/*
