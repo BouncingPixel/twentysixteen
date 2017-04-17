@@ -3,7 +3,7 @@
 }
 
 .entry-title a {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 }
 
 .entry-title a:hover {
@@ -49,7 +49,7 @@ div.center.coaches-bio hr {
 }
 
 input[type="submit"] {
-	background: rgb(219, 90, 45);
+	background: rgb(222, 73, 7);
 }
 input[type="submit"]:hover {
 	background: rgb(26, 26, 26);
@@ -145,7 +145,7 @@ input[type="submit"]:hover {
 #home-section .widget_wi_volunteer_management_widget > a > h2,
 #home-section .vsel_widget h2 {
 	/*color: #3d3d3d;*/
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 	margin-bottom: 0;
 	/*border-bottom: white solid 3px;*/
 	padding-bottom: 5px;
@@ -189,7 +189,7 @@ input[type="submit"]:hover {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	padding: 0 8px;
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 }
 
 
@@ -225,7 +225,7 @@ input[type="submit"]:hover {
 }
 
 #home-section .widget_wi_volunteer_management_widget > ul > li > a:hover {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 }
 
 #home-section #vsel > div > div.vsel-meta > h4 > a {
@@ -233,7 +233,7 @@ input[type="submit"]:hover {
 }
 
 #home-section #vsel > div > div.vsel-meta > h4 > a:hover {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 }
 
 #home-section #vsel > div > div.vsel-meta > p {
@@ -303,9 +303,9 @@ input[type="submit"]:hover {
 
 #home-section .widget_wi_volunteer_management_widget > p > a:hover,
 #home-section .vsel_widget > div.vsel-widget-link > a:hover {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 	/* background-color: rgb(61, 61, 61); */
-	border-color: rgb(219, 90, 45);
+	border-color: rgb(222, 73, 7);
 	transition: 0.2s;
 }
 
@@ -350,12 +350,12 @@ input[type="submit"]:hover {
 }
 
 a {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 }
 
 .site-header-menu {
 	margin: 0 auto;
-	background: rgb(219, 90, 45);
+	background: rgb(222, 73, 7);
 	text-align: center;
 	font-weight: 600;
 	width: 100%;
@@ -364,20 +364,28 @@ a {
 .site-info {
 	margin: 0 auto;
 }
-
-
+ul.toggled-on {
+	background-color: black;
+}
+button.dropdown-toggle {
+	color: white;
+}
 /* root level nav styling */
 
 .primary-menu > li > a {
 	color: white;
 }
 
-.primary-menu > li:hover {
+.primary-menu > li:hover,
+.primary-menu > li:active,
+.primary-menu > li:focus, {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
-.primary-menu > li > a:hover, .primary-menu > li > a:active, .primary-menu > li > a:focus {
-	color: rgb(219, 90, 45);
+.primary-menu > li > a:hover,
+.primary-menu > li > a:active,
+.primary-menu > li > a:focus {
+	color: rgb(222, 73, 7);
 	color: white;
 }
 
@@ -438,7 +446,7 @@ ul.sub-menu a {
 }
 
 .site-info {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 	background: rgb(226, 226, 226);
 	font-weight: 600;
 	margin: 0 auto;
@@ -451,7 +459,7 @@ ul.sub-menu a {
 	width: 100%;
 	color: white;
 	text-align: center;
-	background-color: rgb(219, 90, 45);
+	background-color: rgb(222, 73, 7);
 	font-weight: 400;
 }
 
@@ -465,7 +473,8 @@ ul.sub-menu a {
 
 .contact-info-address, .contact-info-email {
 	width: 50%;
-	padding: 10px;
+	padding: 4px;
+	font-size: 14px;
 }
 
 
@@ -486,11 +495,11 @@ ul.sub-menu a {
 }
 
 .main-navigation ul.sub-menu a:hover {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 }
 
 .nav-previous a, .nav-next a {
-	color: rgb(219, 90, 45) !important;
+	color: rgb(222, 73, 7) !important;
 }
 
 .post-navigation .post-title {
@@ -555,9 +564,14 @@ article ul {
 	padding-left: 30px;
 }
 
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+	color: white !important;
+}
+
 
 /*.volunteer-opp-info {
-	color: rgb(219, 90, 45);
+	color: rgb(222, 73, 7);
 
 }*/
 
@@ -680,13 +694,22 @@ article ul {
 	}
 	/*To fix weird whitespace problem when ul is inline-block*/
 	#site-navigation > div {
-		height: 42px;
+		height: 32px;
 	}
 	ul#menu-navbar {
 		display: inline-block;
 	}
 	.simple-social-icons ul {
 		margin-top: 27px !important;
+	}
+	.main-navigation a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 1;
+	}
+
+	.main-navigation .menu-item-has-children > a:after {
+		top: 9px !important;
 	}
 
 }
