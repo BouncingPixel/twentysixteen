@@ -62,5 +62,7 @@ get_header(); ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
+	<script src='//jonathantneal.github.io/svg4everybody/svg4everybody.min.js'></script>
+	<script>svg4everybody();</script>
 
 <?php get_footer(); ?>
