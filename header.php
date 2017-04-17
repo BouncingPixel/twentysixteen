@@ -38,23 +38,23 @@
 								<li class="ssi-facebook">
 									<a href="https://www.facebook.com/houstonheatdragonboat/" target="_blank" id="icon-color-facebook">
 										<svg class="social-facebook" aria-labelledby="social-facebook" xmlns="http://www.w3.org/2000/svg" role="img" title="Facebook" >
-											<use href="/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook" xlink:href="/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook"></use>
+											<use href="/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook" xlink:href="/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook"></use>
 										</svg>
 									</a>
 								</li>
 								<li class="ssi-youtube">
 									<a href="https://www.youtube.com/user/houstonheatDBC" target="_blank" id="icon-color-youtube">
 										<svg class="social-youtube" aria-labelledby="social-youtube" xmlns="http://www.w3.org/2000/svg" role="img" title="YouTube" >
-											<use href="/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-youtube"
-											xlink:href="/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-youtube"></use>
+											<use href="/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-youtube"
+											xlink:href="/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-youtube"></use>
 										</svg>
 									</a>
 								</li>
 								<li class="ssi-instagram">
 									<a href="https://www.instagram.com/houstonheatdragons/" target="_blank" id="icon-color-instagram">
 										<svg class="social-instagram " aria-labelledby="social-instagram" xmlns="http://www.w3.org/2000/svg" role="img" title="Instagram" >
-											<use href="/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"
-											xlink:href="/houston-heat/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use>
+											<use href="/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"
+											xlink:href="/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use>
 										</svg>
 									</a>
 								</li>
