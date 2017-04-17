@@ -386,13 +386,14 @@ button.dropdown-toggle {
 .primary-menu > li:hover,
 .primary-menu > li:active,
 .primary-menu > li:focus, {
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 .primary-menu > li > a:hover,
 .primary-menu > li > a:active,
 .primary-menu > li > a:focus {
-	color: rgb(222, 73, 7);
+	background-color: rgba(0, 0, 0, 0.9) !important;
+	/*color: rgb(222, 73, 7);*/
 	color: white;
 }
 
