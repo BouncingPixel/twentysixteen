@@ -41,7 +41,7 @@
 
 			<div class="contact-info">
 				<div class="contact-info-container">
-					<span class="contact-info-email"><?php printf('Email: info@houstonheat.org'); ?></span>
+					<span class="contact-info-email"><?php printf('Email: houstonheatdragonboat@gmail.com'); ?></span>
 					<span class="contact-info-address"><?php printf('Mailing: P.O. Box 27029, Houston, TX 77227-7029'); ?></span>
 				</div>
 			</div>
